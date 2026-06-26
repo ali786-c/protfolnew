@@ -85,6 +85,41 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 			{footerStyle == 3 ? < Footer3 /> : null}
 
 			<BackToTop target="#top" />
+
+			{/* Floating WhatsApp Button */}
+			<a
+				href="https://wa.me/923412202875"
+				target="_blank"
+				rel="noopener noreferrer"
+				className="whatsapp-float animate-bounce"
+				style={{
+					position: 'fixed',
+					right: '1.5rem',
+					bottom: '5.5rem',
+					width: '3rem',
+					height: '3rem',
+					backgroundColor: '#25d366',
+					color: '#FFF',
+					borderRadius: '10px',
+					boxShadow: '0 4px 10px rgba(0, 0, 0, 0.3)',
+					zIndex: 1010,
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+					cursor: 'pointer',
+					transition: 'all 0.2s ease-in-out'
+				}}
+				onMouseEnter={(e) => {
+					e.currentTarget.style.transform = 'translateY(-3px)';
+					e.currentTarget.style.backgroundColor = '#128C7E';
+				}}
+				onMouseLeave={(e) => {
+					e.currentTarget.style.transform = 'translateY(0)';
+					e.currentTarget.style.backgroundColor = '#25d366';
+				}}
+			>
+				<i className="ri-whatsapp-line" style={{ fontSize: '1.8rem' }} />
+			</a>
 		</>
 	)
 }
