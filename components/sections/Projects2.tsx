@@ -44,7 +44,7 @@ export default function Projects2() {
 												<div className="p-lg-5 p-md-4 p-3 border border-1 mt-5 bg-3">
 													<div className="row">
 														<div className="col-lg-5">
-															<img className="w-100 rounded-3" src="/assets/imgs/work/img-1.png" alt="AI Keyboard" />
+															<img className="w-100 rounded-3" src="/assets/imgs/projects/keyboard.jpeg" alt="AI Keyboard" />
 														</div>
 														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
 															<h4 className="text-linear-4">
@@ -88,7 +88,7 @@ export default function Projects2() {
 												<div className="p-lg-5 p-md-4 p-3 border border-1 mt-5 bg-3">
 													<div className="row">
 														<div className="col-lg-5">
-															<img className="w-100 rounded-3" src="/assets/imgs/work/img-2.png" alt="Weather App" />
+															<img className="w-100 rounded-3" src="/assets/imgs/projects/weather.jpeg" alt="Weather App" />
 														</div>
 														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
 															<h4 className="text-linear-4">
@@ -176,7 +176,7 @@ export default function Projects2() {
 												<div className="p-lg-5 p-md-4 p-3 border border-1 mt-5 bg-3">
 													<div className="row">
 														<div className="col-lg-5">
-															<img className="w-100 rounded-3" src="/assets/imgs/work/img-4.png" alt="Restaurant Discovery Portal" />
+															<img className="w-100 rounded-3" src="/assets/imgs/projects/returnat.jpeg" alt="Restaurant Discovery Portal" />
 														</div>
 														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
 															<h4 className="text-linear-4">
@@ -220,7 +220,7 @@ export default function Projects2() {
 												<div className="p-lg-5 p-md-4 p-3 border border-1 mt-5 bg-3">
 													<div className="row">
 														<div className="col-lg-5">
-															<img className="w-100 rounded-3" src="/assets/imgs/work/img-5.png" alt="Academic GPA Tool" />
+															<img className="w-100 rounded-3" src="/assets/imgs/projects/cgpacal.jpeg" alt="Academic GPA Tool" />
 														</div>
 														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
 															<h4 className="text-linear-4">
@@ -264,7 +264,7 @@ export default function Projects2() {
 												<div className="p-lg-5 p-md-4 p-3 border border-1 mt-5 bg-3">
 													<div className="row">
 														<div className="col-lg-5">
-															<img className="w-100 rounded-3" src="/assets/imgs/work/img-6.png" alt="Health BMI Tracker" />
+															<img className="w-100 rounded-3" src="/assets/imgs/projects/bmi.jpeg" alt="Health BMI Tracker" />
 														</div>
 														<div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
 															<h4 className="text-linear-4">
