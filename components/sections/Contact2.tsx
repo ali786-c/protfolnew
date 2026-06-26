@@ -11,7 +11,9 @@ export default function Contact2() {
 							<div className="position-relative">
 								<div className="position-relative z-2">
 									<h3 className="text-primary-2 mb-3">Let’s connect</h3>
-									<form action="#">
+									<form action="https://api.web3forms.com/submit" method="POST">
+										<input type="hidden" name="access_key" value="0d2396ef-dedf-4375-8d98-6bb88991a4c1" />
+										<input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} />
 										<div className="row g-3">
 											<div className="col-md-6 ">
 												<input type="text" className="form-control bg-3 border border-1 rounded-3" id="name" name="name" placeholder="Your name" aria-label="username" />

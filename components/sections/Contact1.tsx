@@ -60,7 +60,9 @@ export default function Contact1() {
 							<div className="position-relative">
 								<div className="position-relative z-2">
 									<h3>Leave a messge</h3>
-									<form action="#">
+									<form action="https://api.web3forms.com/submit" method="POST">
+										<input type="hidden" name="access_key" value="0d2396ef-dedf-4375-8d98-6bb88991a4c1" />
+										<input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} />
 										<div className="row mt-3">
 											<div className="col-md-6 ">
 												<label className="mb-1 mt-3 text-dark" htmlFor="name">Your name <span className="text-primary-1">*</span></label>
